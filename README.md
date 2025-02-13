@@ -73,7 +73,7 @@ bitSet(PORTD, 0);  // Set PD0 high
 if (bitCheck(PIND, 1)) 
 {
     bitWaitLow(PIND, 1); /**< Wait until bit 1 of PIND goes low */
-    bitToggle(PORTD, 2); /**< Toggle the bit 2 of PORTD (change the state of pin 2 of PORTD) */
+    bitToggle(PORTD, 0); /**< Toggle the bit 0 of PORTD (change the state of pin 0 of PORTD) */
 }
 ```
 
