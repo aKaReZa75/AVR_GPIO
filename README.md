@@ -66,8 +66,7 @@ The PINx register reads the current state of pins configured as inputs. If a bit
 GPIO_Config_OUTPUT(DDRD, 0); /**< Set PD0 as output */
 GPIO_Config_INPUT(DDRD, 1); /**< Set PD1 as input */
 
-/* Set PD0 to high */
-bitSet(PORTD, 0);  /**< Set PD0 high */
+bitSet(PORTD, 0);  /**< Set PD0 to high */
 
 /* Check if the bit 1 of PIND is high */
 if (bitCheck(PIND, 1)) 
