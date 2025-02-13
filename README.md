@@ -69,7 +69,7 @@ GPIO_Config_INPUT(DDRD, 1); /**< Set PD1 as input */
 bitSet(PORTD, 0);  /**< Set PD0 to high */
 
 /* Check if the bit 1 of PIND is high */
-if (bitCheck(PIND, 1)) 
+if (bitCheckHigh(PIND, 1)) 
 {
     bitWaitLow(PIND, 1); /**< Wait until bit 1 of PIND goes low */
     bitToggle(PORTD, 0); /**< Toggle the bit 0 of PORTD (change the state of pin 0 of PORTD) */
