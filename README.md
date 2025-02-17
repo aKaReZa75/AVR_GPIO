@@ -101,9 +101,25 @@ if (bitCheckHigh(PIND, 1))
 6. **Port Pin Conflict**: 
    Be mindful of pins that may serve multiple purposes (e.g., a pin that is both an SPI pin and a regular GPIO). Check the datasheet to ensure proper pin configuration to avoid conflicts between functions.
 
+# 🔗 Resources
+  Here you'll find a collection of useful links and videos related to the topic of AVR microcontrollers.  
+  
 > [!TIP]
-> For full access to resources related to AVR, you can visit this repository: [AVR Microcontroller](https://github.com/aKaReZa75/AVR)   
-> which includes hardware schematics, software libraries, and educational projects.
+> The resources are detailed in the sections below.  
+> To access any of them, simply click on the corresponding blue link.
+
+- [aKaReZa 20 - AVR, GPIO - Part A](https://youtu.be/_0uQSh0qBBo)  
+    ---  
+    Introduction to AVR GPIO control registers, pin configuration, simulation in Proteus, coding in PaltformIO and VsCode, timing issues, and code readability improvements using macros.
+
+- [aKaReZa 23 - AVR, GPIO - PART B](https://youtu.be/xa3nRQx28Nw)  
+    ---  
+    Learn about AVR GPIO control registers, configuring pins as input, reading pin status, simulating AVR in Proteus, coding in PaltformIO and VsCode, using internal pull-up, and using if statements for input.
+
+- [AVR Microntroller](https://github.com/aKaReZa75/AVR)
+  ---  
+    This repository contains comprehensive resources for AVR microcontrollers, including hardware schematics, software libraries, and educational projects.
+
 
 # 💻 How to Use Git and GitHub
 To access the repository files and save them on your computer, there are two methods available:
