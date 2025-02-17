@@ -101,6 +101,10 @@ if (bitCheckHigh(PIND, 1))
 6. **Port Pin Conflict**: 
    Be mindful of pins that may serve multiple purposes (e.g., a pin that is both an SPI pin and a regular GPIO). Check the datasheet to ensure proper pin configuration to avoid conflicts between functions.
 
+> [!TIP]
+> For full access to resources related to AVR, you can visit this repository: [AVR Microcontroller](https://github.com/aKaReZa75/AVR)   
+> which includes hardware schematics, software libraries, and educational projects.
+
 # 💻 How to Use Git and GitHub
 To access the repository files and save them on your computer, there are two methods available:
 1. **Using Git Bash and Cloning the Repository**
