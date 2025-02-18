@@ -4,9 +4,9 @@
 #define RGB_R_Control PORTB
 #define RGB_R_PIN     3
 
-#define SW1_Config    DDRD
-#define SW1_Status    PIND
-#define SW1_Pin       2
+#define SW1_Config    DDRB
+#define SW1_Status    PINB
+#define SW1_Pin       5
 
 int main(void)
 {
