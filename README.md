@@ -2,9 +2,6 @@
 
 The General Purpose Input/Output (GPIO) peripheral is a fundamental feature in microcontrollers like the AVR series. It allows the microcontroller to interact with external devices such as LEDs, switches, sensors, and more. GPIO pins can be configured as either inputs or outputs, and their states can be read or written using specific registers. These pins offer a versatile way to communicate with the outside world, enabling a wide range of applications in embedded systems.
 
-> [!CAUTION]
-> It is absolutely critical that you carefully read every single word of this document, line by line, to ensure you don't miss any details. Nothing can be overlooked.
-
 <table>
   <tr>
   <td valign="top">
@@ -23,7 +20,17 @@ The General Purpose Input/Output (GPIO) peripheral is a fundamental feature in m
              alt="aKaReZa 95 - Programming, Git - PART B Thumbnail"/>
       </a>
     </td>
+
+  </td>
   </tr>
+  <tr>
+  <td colspan="2">
+
+  > [!CAUTION]
+  > It is absolutely critical that you carefully read every single word of this document, line by line, to ensure you don't miss any details. Nothing can be overlooked.
+      
+  </td>
+  </tr>  
 </table>
 
 ## GPIO Registers
