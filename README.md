@@ -109,23 +109,52 @@ if (bitCheckHigh(PIND, 1))
 
 # 🔗 Resources
   Here you'll find a collection of useful links and videos related to the topic of AVR microcontrollers.  
+
+<table style="border-collapse: collapse;">
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/_0uQSh0qBBo">aKaReZa 20 – AVR, GPIO - Part A</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Introduction to AVR GPIO control registers, pin configuration, simulation in Proteus, coding in PlatformIO and VsCode, timing issues, and code readability improvements using macros.
+      </p>
+    </td>
+    <td width="360" valign="top" style="padding: 0;">
+      <a href="https://youtu.be/_0uQSh0qBBo">
+        <img src="https://img.youtube.com/vi/_0uQSh0qBBo/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 20 – AVR, GPIO - Part A Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/xa3nRQx28Nw">aKaReZa 23 – AVR, GPIO - PART B</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Learn about AVR GPIO control registers, configuring pins as input, reading pin status, simulating AVR in Proteus, coding in PlatformIO and VsCode, using internal pull-up, and using if statements for input.
+      </p>
+    </td>
+    <td width="360" valign="top" style="padding: 0;">
+      <a href="https://youtu.be/xa3nRQx28Nw">
+        <img src="https://img.youtube.com/vi/xa3nRQx28Nw/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 23 – AVR, GPIO - PART B Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+</table>
   
 > [!TIP]
 > The resources are detailed in the sections below.  
 > To access any of them, simply click on the corresponding blue link.
 
-- [aKaReZa 20 - AVR, GPIO - Part A](https://youtu.be/_0uQSh0qBBo)  
-    ---  
-    Introduction to AVR GPIO control registers, pin configuration, simulation in Proteus, coding in PaltformIO and VsCode, timing issues, and code readability improvements using macros.
-
-- [aKaReZa 23 - AVR, GPIO - PART B](https://youtu.be/xa3nRQx28Nw)  
-    ---  
-    Learn about AVR GPIO control registers, configuring pins as input, reading pin status, simulating AVR in Proteus, coding in PaltformIO and VsCode, using internal pull-up, and using if statements for input.
-
 - [AVR Microntroller](https://github.com/aKaReZa75/AVR)
   ---  
     This repository contains comprehensive resources for AVR microcontrollers, including hardware schematics, software libraries, and educational projects.
-
 
 # 💻 How to Use Git and GitHub
 To access the repository files and save them on your computer, there are two methods available:
