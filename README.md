@@ -132,6 +132,21 @@ if (bitCheckHigh(PIND, 1))
 # 🔗 Resources
   Here you'll find a collection of useful links and videos related to the topic of AVR microcontrollers.  
 
+```plaintext
+ AVR, GPIO
+   ├── [aKaReZa 20 - AVR, GPIO - Part A]
+   │   ├─ Output Config — GPIO registers and pin setup.
+   │   ├─ Simulation — Proteus + LED control in PlatformIO/VSCode.
+   │   ├─ Timing Sync — Fuse bits vs compiler clock.
+   │   └─ Macros — Improving code readability.
+   │
+   └── [aKaReZa 23 - AVR, GPIO - Part B]
+       ├─ Input Config — GPIO registers and pin reading.
+       ├─ Simulation — Input handling in Proteus + PlatformIO/VSCode.
+       ├─ Pull-Up — Enabling and using internal resistor.
+       └─ Logic Control — Handling input with `if` statements.
+```
+
 <table style="border-collapse: collapse;">
   <tr>
     <td valign="top" style="padding: 0 10px;">
